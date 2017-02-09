@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /app
-    destination: /var/www/html/clientes/webdemo
+    destination: /var/www/html/clientes/webdemoqas
