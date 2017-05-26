@@ -3,3 +3,10 @@ os: windows
 files:
   - source: /app
     destination: c:\HelloWorldApp
+hooks:
+  BeforeInstall:
+    - location: /scripts/before.bat
+      timeout: 900
+  AfterInstall:
+    - location: /scripts/after.bat
+      timeout: 900
